@@ -47,22 +47,7 @@ public class MainActivity extends Activity{
         purpose.add(new Purpose("12 apr", "Карантин", "wait"));
         purpose.add(new Purpose("12 apr", "Карантин", "wait"));
         purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
-        purpose.add(new Purpose("12 apr", "Карантин", "wait"));
+
         RecycleAdapter adapter = new RecycleAdapter(purpose);
         RecyclerView purposeList = findViewById(R.id.goalsRecycleView);
         purposeList.setLayoutManager(new GridLayoutManager(this, 1));
